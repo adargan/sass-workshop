@@ -1,0 +1,138 @@
+/****** Google Web Fonts  ******/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300); 
+
+/****** Google Web Fonts  ******/
+
+
+/****** Utility Classes ******/
+.left {
+   float: left;
+}
+
+.right {
+   float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+	}
+
+/****** Utility Classes ******/
+
+
+
+body {
+    font-family:'Open Sans', Arial, serif; /* add the name to a variable */
+    background: #efeee7;
+    
+}
+
+h1 {
+    
+    font-size: 3em;
+    color: #a33a3f; /* Make this 20% darker than the background colour of the jumbotron */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em; /* Ensure that this is not applied to the h1 in the jumbotron */
+
+}
+
+
+.light {
+    font-weight: 100;   
+}
+
+p {
+    
+    font-size: 1.5em;
+    margin-bottom: 30px; /* Apply this to all paragaphs apart from the last one*/
+    color: #555;
+    font-weight: 100;
+}
+
+.about {
+    width: 60%;
+    font-size: .8em;
+    
+}
+
+
+/****** Nav ******/
+.nav   {
+    background: #fff;
+  
+}
+
+
+/****** Nav ******/
+
+
+/****** Jumbotron ******/
+
+.header {background: #a33a3f;}
+
+.header h1 { 
+    color: #fff; 
+    font-weight: 800;
+    font-size:12em;
+}
+
+/****** Jumbotron ******/
+
+
+/****** Profile ******/
+
+.profile {
+    width: 35%;
+    padding: 2%;
+    background: #fff; /* This colour should be  30% lighter than the page's background colour */ 
+    border-radius: 5px;
+    margin: 15px;
+    min-height: 200px;
+    border: 2px solid #e8e8ce; /* This colour should be 20% darker than the page's background colour */ 
+}
+
+.profile ul  {
+  
+    
+     width: 50%
+}
+
+
+.profile img  {
+    border-radius: 200px;
+    width: 50%
+  
+    
+}
+
+.profile h2  {
+    font-size: 1.4em;
+    font-weight: 600;
+   
+    
+}
+
+/****** Profile ******/
+
+.first {
+}
+
+
+.second {
+    background: #f5efe6;
+}
+
+
+footer {
+ 
+    background: #fff;
+    padding:25px 0 25px 0;
+    
+}
+
+
+
